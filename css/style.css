@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url(../css/animations.css);
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    text-align: center;
+}
+
+#error {
+    color: red;
+}
+
+input {
+    display: block;
+    margin: 15px auto;
+    padding: 5px;
+    font-weight: bold;
+}
+
+p {
+    display: inline;
+}

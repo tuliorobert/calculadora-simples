@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculadora Simples</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <main>
+            <h1>Calculadora Simples</h1>
+            <h4 id="error"></h4>
+            <input type="number" placeholder="Primeiro Valor" id="num1">
+            <input type="number" placeholder="Segundo Valor" id="num2">
+            <button onclick="sumNum()">+</button>
+            <button onclick="subNum()">-</button>
+            <button onclick="multiNum()">x</button>
+            <button onclick="divNum()">%</button>
+            <br>
+            <br>
+            <p>Resultado: </p>
+            <p id="result">0</p>
+        </main>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
