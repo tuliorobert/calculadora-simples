@@ -23,6 +23,8 @@ function subNum() {
     }
 
     else {
+        errorMessage.textContent = '';
+
         let subTotal = parseFloat(number1.value) - parseFloat(number2.value);
 
         resultNum.textContent = subTotal;
@@ -35,6 +37,8 @@ function multiNum() {
     }
     
     else {
+        errorMessage.textContent = '';
+
         let multiTotal = parseFloat(number1.value) * parseFloat(number2.value);
 
         resultNum.textContent = multiTotal;
@@ -51,6 +55,8 @@ function divNum() {
     }
 
     else {
+        errorMessage.textContent = '';
+
         let divTotal = parseFloat(number1.value) / parseFloat(number2.value);
 
         resultNum.textContent = divTotal;
