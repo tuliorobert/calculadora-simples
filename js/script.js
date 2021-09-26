@@ -50,7 +50,7 @@ function divNum() {
         errorMessage.textContent = 'Input Errado!';
     }
 
-    if (number1.value == '0' | number2 == '0') {
+    else if (number1.value == '0' | number2 == '0') {
         errorMessage.textContent = 'Impossível Dividir por 0!';
     }
 
