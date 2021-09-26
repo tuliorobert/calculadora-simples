@@ -62,3 +62,5 @@ function divNum() {
         resultNum.textContent = divTotal;
     }
 }
+
+console.log('Essa é uma área de teste, use com sabedoria ;)');
